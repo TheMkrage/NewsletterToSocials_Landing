@@ -14,32 +14,32 @@ const data = [
   {
     id: 1,
     image: news1,
-    title: 'Introducing our newest team with great experience',
+    title: 'Top 5 Social Media Tools for Newsletter Creators',
     desc:
-      'Brian Halligan knows that you need more than a great product to have a great brand.',
-    link: '#',
+      'Why do it all yourself? Use tools to save time while promoting your newsletter.',
+    link: 'https://newslettertosocials.substack.com/p/top-5-social-media-tools-for-newsletter',
   },
   {
     id: 2,
     image: news2,
     title:
-      'New banking application has  developed and we expecting good feedback',
-    desc: '',
-    link: '#',
+      'Why Social Media is the Best way to Grow your Newsletter',
+    desc: 'It\'s no secret that social media is kind of a big deal. Many writers that I have talked to mention Facebook Groups as a large source of incoming traffic and subscribers. This is an awesome way to make connections, but Facebook Groups are really just the tip of the iceberg in how social media can help grow a newsletter.',
+    link: 'https://newslettertosocials.substack.com/p/why-social-media-is-the-best-way',
   },
   {
     id: 3,
     image: news3,
-    title: 'Ui/UX industry are doing great job in previous year history',
+    title: 'Growing your Newsletter on Instagram',
     desc: '',
-    link: '',
+    link: 'https://newslettertosocials.substack.com/p/growing-your-newsletter-on-instagram',
   },
   {
     id: 4,
     image: news4,
-    title: 'Develop you design experience with figma features.',
+    title: 'A Newsletter to Socials Case Study: Year 2049',
     desc: '',
-    link: '',
+    link: 'https://newslettertosocials.substack.com/p/a-newsletter-to-socials-case-study',
   },
 ];
 

@@ -21,17 +21,20 @@ export default function Footer() {
                 <Logo footer />
               </Box>
               <Box sx={styles.terms}>
-                <Link path="#!">Terms of use</Link>
-                <Text as="span">|</Text>
-                <Link path="#!">Privacy</Link>
+                {/* <Link path="#!">Terms of use</Link> */}
+                {/* <Text as="span">|</Text> */}
+                {/* <Link path="#!">Privacy</Link> */}
               </Box>
               <Text as="p" sx={styles.copyright}>
-                Copyright by {new Date().getFullYear()} RedQ, Inc
+                Copyright by {new Date().getFullYear()} Newsletter to Socials
               </Text>
             </Box>
-            {menuItems.map(({ id, title, items }) => (
-              <Widget key={id} title={title} items={items} />
-            ))}
+            <Box sx={styles.widgets}>
+              {menuItems.map(({ id, title, items }) => (
+                <Widget key={id} title={title} items={items} />
+              ))}
+            </Box>
+
           </Box>
         </Container>
       </Box>
@@ -45,10 +48,13 @@ const styles = {
     pt: [8, null, null, 10],
     pb: [8, null, null, 15],
   },
+  widgets: {
+    px: 10
+  },
   footerTopInner: {
-    gap: [30, null, 50, '20px 50px', 17, 50],
+    gap: [30, null, 50, '20px 50px', 17, 10],
     display: ['grid'],
-    gridTemplateColumns: [
+    padding: 1, gridTemplateColumns: [
       'repeat(2, 1fr)',
       null,
       null,

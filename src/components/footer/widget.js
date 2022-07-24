@@ -12,7 +12,7 @@ const Widget = ({ title, items }) => {
         {items.map(({ path, label, icon }, i) => (
           <li key={i}>
             {icon && <Image src={icon} alt={label} />}
-            <Link path={path} key={i} label={label} variant="footer" />
+            <Link path={path} href={path} key={i} label={label} variant="footer" />
           </li>
         ))}
       </ul>
