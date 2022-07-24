@@ -1,6 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Container, Button } from 'theme-ui';
+import { jsx, Container, Button, Link } from 'theme-ui';
 import { useState } from 'react';
 import Sticky from 'react-stickynode';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
@@ -41,9 +41,11 @@ export default function Header() {
                 <NavLink key={i} path={path} label={label} />
               ))}
             </nav>
-            <Button variant="primary" sx={styles.button}>
-              Purchase Now
-            </Button>
+            <Link sx={{ textDecoration: 'none', }} target="_blank" href="https://app.newslettertosocials.com" passHref>
+              <Button variant="primary" sx={styles.button}>
+                Get Started
+              </Button>
+            </Link>
             <NavbarDrawer />
           </Container>
         </header>
@@ -58,7 +60,7 @@ const styles = {
     position: 'fixed',
     left: 0,
     right: 0,
-    py: [5],
+    py: [3],
     transition: 'all 0.3s ease-in-out 0s',
     '&.is-sticky': {
       backgroundColor: 'white',
@@ -92,5 +94,6 @@ const styles = {
     display: ['none', null, null, null, 'inline-flex'],
     minHeight: 45,
     px: '18px',
+    textDecoration: 'none',
   },
 };

@@ -13,20 +13,20 @@ const data = [
   {
     id: 1,
     icon: icon1,
-    title: 'For Individuals',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'Auto-Generate Content for All Platforms',
+    description: `Automatically Generate Text and Imaged-based Posts for Twitter, Instagram, Facebook, & LinkedIn directly from your newsletter.`,
   },
   {
     id: 2,
     icon: icon2,
-    title: 'For Team',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'Discover Engaging Content',
+    description: `Use AI to find the tidbits of content hidden in your written publication that will perform will on social media.`,
   },
   {
     id: 3,
     icon: icon3,
-    title: 'For Organization',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'One and Done',
+    description: `In under 15 minutes, schedule weeks worth of social media content.`,
   },
 ];
 
@@ -66,8 +66,8 @@ const Services = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          slogan="Ideal solutions for you"
-          title="Go beyond ultimate Services"
+          slogan="The All-In-One Platform for Newsletter/Blog Growth"
+          title="Grow Your Newsletter"
         />
         <Slider sx={styles.features} {...settings}>
           {data?.map((item) => (

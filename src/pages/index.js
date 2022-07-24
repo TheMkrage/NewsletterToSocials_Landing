@@ -17,17 +17,17 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Support System Landing"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
+          title="Newsletter to Socials"
+          description="An all-in-one platform for promoting your newsletter and blog on social media! Automate content creation and promotion."
         />
         <Banner />
         <Services />
         <VideoCalling />
         <Pricing />
-        <Clients />
+        {/* <Clients /> TODO: testamonials */}
         <Blog />
         <Faq />
-        <Support />
+        {/* <Support /> */}
       </Layout>
     </ThemeProvider>
   );

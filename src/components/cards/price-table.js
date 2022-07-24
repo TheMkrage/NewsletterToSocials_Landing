@@ -1,6 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Box, Button } from 'theme-ui';
+import { jsx, Box, Button, Link } from 'theme-ui';
 import { IoMdCheckmarkCircle, IoIosCloseCircle } from 'react-icons/io';
 import { rgba } from 'polished';
 
@@ -26,34 +26,41 @@ const PriceTable = ({ data }) => {
         </span>
         <Box as="ul" variant="styles.unStyled" sx={styles.features}>
           <li>
-            <span>Full Access Library</span>
-            <FeatureIcon value={data.library_access} />
+            <span>Full Access to Content Generation</span>
+            <FeatureIcon value={data.full_access_to_content_generation} />
           </li>
           <li>
-            <span>Multiple user</span>
-            <FeatureIcon value={data.multiple_user} />
+            <span>Post Scheduling</span>
+            <FeatureIcon value={data.post_scheduling} />
           </li>
           <li>
-            <span>Refund Policy</span>
-            <FeatureIcon value={data.refund_policy} />
+            <span>50+ Images Templates</span>
+            <FeatureIcon value={data.image_templates} />
           </li>
           <li>
-            <span>Google Analytics</span>
-            <FeatureIcon value={data.google_analytics} />
+            <span>Unlimited Posts</span>
+            <FeatureIcon value={data.unlimited_posts} />
+          </li>
+          <li>
+            <span>Watermark free</span>
+            <FeatureIcon value={data.watermark_free} />
+          </li>
+          <li>
+            <span>Multiple Publications</span>
+            <FeatureIcon value={data.multiple_publications} />
           </li>
           <li>
             <span>24/7 support</span>
             <FeatureIcon value={data.support} />
           </li>
         </Box>
-        <Button
-          sx={styles.button}
-          variant="primaryOutline"
-          className={data.is_recommended ? 'recommended' : ''}
-        >
-          Choose Plan
-        </Button>
-        <span sx={styles.trial}>{data.trial_period} days free trial</span>
+        <Link sx={{ textDecoration: 'none', }} target="_blank" href="https://app.newslettertosocials.com/settings" passHref>
+          <Button sx={styles.button}
+            variant="primaryOutline"
+            className={data.is_recommended ? 'recommended' : ''}>
+            Get Started
+          </Button>
+        </Link>
       </div>
     </div>
   );

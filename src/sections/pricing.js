@@ -9,51 +9,40 @@ import SectionHeading from 'components/section-heading';
 const data = [
   {
     id: 1,
-    title: 'Starter Pack',
-    amount: 18.99,
-    is_recommended: false,
-    library_access: true,
-    multiple_user: true,
-    refund_policy: false,
-    google_analytics: false,
+    title: 'Free Plan',
+    amount: 0,
+    full_access_to_content_generation: true,
+    post_scheduling: true,
+    image_templates: true,
+    unlimited_posts: false,
+    watermark_free: false,
+    multiple_publications: false,
+
     support: false,
-    trial_period: 15,
   },
   {
     id: 2,
-    title: 'Premium Pack',
-    amount: 23.99,
-    is_recommended: true,
-    library_access: true,
-    multiple_user: true,
-    refund_policy: true,
-    google_analytics: false,
+    title: 'Indie Plan',
+    amount: 19,
+    full_access_to_content_generation: true,
+    post_scheduling: true,
+    image_templates: true,
+    unlimited_posts: true,
+    watermark_free: true,
+    multiple_publications: false,
     support: false,
-    trial_period: 30,
   },
   {
     id: 3,
-    title: 'Custom Pack',
-    amount: 29.99,
-    is_recommended: false,
-    library_access: true,
-    multiple_user: true,
-    refund_policy: true,
-    google_analytics: true,
-    support: false,
-    trial_period: 30,
-  },
-  {
-    id: 4,
-    title: 'Ultimate Pack',
-    amount: 35.99,
-    is_recommended: false,
-    library_access: true,
-    multiple_user: true,
-    refund_policy: true,
-    google_analytics: true,
+    title: 'Business Plan',
+    amount: 59,
+    full_access_to_content_generation: true,
+    post_scheduling: true,
+    image_templates: true,
+    unlimited_posts: true,
+    watermark_free: true,
+    multiple_publications: true,
     support: true,
-    trial_period: 45,
   },
 ];
 
@@ -98,16 +87,18 @@ const Pricing = () => {
       <Container>
         <SectionHeading
           sx={{ mb: [6, null, null, 14] }}
-          slogan="Deal for your business"
-          title="Meet our pricing plan that suit you"
+          slogan="Plans"
+          title="Pricing for All Kinds of Newsletter Writers and Creators"
         />
         <Box sx={styles.grid}>
           {isTablet && (
             <ul sx={styles.features}>
-              <li>Full Access Library</li>
-              <li>Multiple user</li>
-              <li>Refund Policy</li>
-              <li>Google Analytics</li>
+              <li>Full Access to Content </li>
+              <li>Post Scheduling</li>
+              <li>50+ Images Templates</li>
+              <li>Unlimited Posts</li>
+              <li>Watermark free</li>
+              <li>Multiple Publications</li>
               <li>24/7 support</li>
             </ul>
           )}
@@ -186,8 +177,6 @@ const styles = {
       null,
       null,
       null,
-      'translateY(-10px)',
-      'translateY(-22px)',
     ],
     li: {
       display: 'flex',

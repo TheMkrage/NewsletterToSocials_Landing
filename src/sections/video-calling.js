@@ -10,13 +10,14 @@ const VideoCalling = () => {
     <section sx={styles.section} id="features">
       <Container>
         <SectionHeading
-          title="Introducing video calling support"
-          description="Every email, web page, and social media post makes an impression on your customers. With our software you can be confident it's impression."
-          learnMore="Explore Details"
+          title="Save Time & Connect with Your Audience"
+          description="Every issue of your blog or newsletter can be converted into 10 - 20 posts on social media. Find new readers and interact with your existing readers."
+          learnMore="Explore Documentation"
+          moreLink='https://newslettertosocials.substack.com'
           sx={{ mb: [6] }}
         />
-        <Box as="figure" sx={styles.illustration}>
-          <Image src={videoCalling} alt="Video Calling" />
+        <Box sx={styles.illustration}>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7TzyMaABQGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </Box>
       </Container>
     </section>
@@ -30,5 +31,8 @@ const styles = {
     pt: [8, null, null, null, 10, 15],
     pb: [6, null, null, null, 10, 12],
   },
-  illustration: {},
+  illustration: {
+    maxWidth: 560,
+    mx: 'auto',
+  },
 };

@@ -8,6 +8,7 @@ import {
   Container,
   Button,
   Heading,
+  Link,
   Text,
 } from 'theme-ui';
 import { rgba } from 'polished';
@@ -21,7 +22,7 @@ const Banner = () => {
       <Container sx={styles.container}>
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
-            <div sx={styles.newsUpdate}>
+            {/* <div sx={styles.newsUpdate}>
               <span>NEWS</span>
               We have updated our term &amp; condition policy{' '}
               <IoIosArrowForward
@@ -29,20 +30,26 @@ const Banner = () => {
                 size="14px"
                 sx={{ ml: 1 }}
               />
-            </div>
+            </div> */}
             <Heading as="h1">
-              Engage your website visitors using support management tools
+              Automatically Grow on Social Media from your Publication
             </Heading>
             <Text as="p">
-              Explore 50+ integrations that make your day-to-day workflow more
-              efficient and familiar. Our extensive developer tools might also
-              strike your fancy website.
+              Newsletter to Socials is an all-in-one tool that turns your newsletter or blog into engaging social media content.
+              You focus on writing.
+              We'll handle getting you seen.
             </Text>
             <div sx={styles.buttonGroup}>
-              <Button variant="primary">Try free trial</Button>
-              <Button variant="white" className="white">
-                Discover in video
-              </Button>
+              <Link sx={{ textDecoration: 'none', }} target="_blank" href="https://app.newslettertosocials.com" passHref>
+                <Button variant="primary" sx={styles.button}>
+                  Get Started For Free
+                </Button>
+              </Link>
+              <Link sx={{ textDecoration: 'none', }} target="_blank" href="https://app.newslettertosocials.com/newsletter-demo" passHref>
+                <Button variant="white" className="white">
+                  See a Demo
+                </Button>
+              </Link>
             </div>
           </Box>
           <Flex as="figure" sx={styles.illustration}>

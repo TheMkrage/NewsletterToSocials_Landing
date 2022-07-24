@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Box, Heading, Button } from 'theme-ui';
+import { Container, Box, Heading, Button, Link } from 'theme-ui';
 
 import BgShape from 'assets/images/shape-1.svg';
 import shapeTop from 'assets/images/icons/btn-shape-top.svg';
@@ -9,15 +9,20 @@ import shapeBottom from 'assets/images/icons/btn-shape-bottom.svg';
 
 const CallToAction = () => {
   return (
-    <section sx={styles.section}>
+    <section sx={styles.section} id="contact">
       <Container sx={styles.container}>
         <Box sx={styles.contentBox}>
           <Heading sx={styles.heading}>
             Do you have any question? Feel free to contact us
           </Heading>
           <Box sx={styles.btnWrapper}>
-            <Button variant="text">Contact us now</Button>
+            <Link sx={{ textDecoration: 'none', }} target="_blank" href="mailto:matthew@newslettertosocials.com" passHref>
+              <Button variant="text">
+                Contact Us
+              </Button>
+            </Link>
           </Box>
+
         </Box>
       </Container>
     </section>

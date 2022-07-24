@@ -5,20 +5,20 @@ export default [
   },
   {
     path: 'services',
-    label: 'Services',
+    label: 'Features',
   },
   {
     path: 'features',
-    label: 'Feature',
+    label: 'Video',
   },
   {
     path: 'pricing',
     label: 'Pricing',
   },
-  {
-    path: 'our-clients',
-    label: 'Our Clients',
-  },
+  // {
+  //   path: 'our-clients',
+  //   label: 'Our Clients',
+  // },
   {
     path: 'blog',
     label: 'Blog',
@@ -26,5 +26,9 @@ export default [
   {
     path: 'faq',
     label: 'Faq',
+  },
+  {
+    path: 'contact',
+    label: 'Contact',
   },
 ];
