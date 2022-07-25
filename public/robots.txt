@@ -1,2 +1,10 @@
+# *
 User-agent: *
-Sitemap: https://example.io/sitemap.xml
+Allow: /
+
+# Host
+Host: https://newslettertosocials.com
+
+# Sitemaps
+Sitemap: https://newslettertosocials.com/sitemap.xml
+Sitemap: https://newslettertosocials.com/blog/sitemap.xml
