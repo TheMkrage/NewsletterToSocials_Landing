@@ -31,8 +31,8 @@ const Faq = () => {
       <Container>
         <SectionHeading
           sx={{ mb: 15 }}
-          slogan="Get yours question answered"
-          title="Frequently asked question"
+          slogan="Get your questions answered"
+          title="Frequently Asked Questions"
         />
         <Masonry options={masonryOptions} sx={styles.grid}>
           {data.map((item) => {
