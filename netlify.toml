@@ -1,4 +1,19 @@
 # netlify.toml
+[[redirects]]
+  from = "/blog"
+  to = "https://newslettertosocials.superblog.cloud/"
+  status = 200
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https://newslettertosocials.superblog.cloud/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/_elderjs/*"
+  to = "https://newslettertosocials.superblog.cloud/_elderjs/:splat"
+  status = 200
+  
 [build]
   command = "next build"
   publish = ".next"
