@@ -32,7 +32,7 @@ const styles = {
     pb: [6, null, null, null, 10, 12],
   },
   illustration: {
-    maxWidth: 560,
+    maxWidth: '100%',
     mx: 'auto',
   },
 };
