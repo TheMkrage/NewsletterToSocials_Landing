@@ -17,7 +17,7 @@ const VideoCalling = () => {
           sx={{ mb: [6] }}
         />
         <Box sx={styles.illustration}>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/7TzyMaABQGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/7TzyMaABQGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </Box>
       </Container>
     </section>
@@ -32,7 +32,8 @@ const styles = {
     pb: [6, null, null, null, 10, 12],
   },
   illustration: {
-    maxWidth: '100%',
-    mx: 'auto',
+    width: '50%',
+    marginLeft: '25%',
+    marginRight: '25%'
   },
 };
