@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'startup landing descriptions',
-  author = 'RedQ, Inc',
+  description = 'An all-in-one platform for promoting your newsletter and blog on social media! Automate content creation and promotion.',
+  author = 'Newsletter to Socials',
   meta,
-  title = 'startup landing title',
+  title = 'Newsletter to Socials',
 }) {
   const metaData = [
     {
@@ -15,6 +15,10 @@ export default function SEO({
     {
       property: `og:title`,
       content: title,
+    },
+    {
+      property: "og:image",
+      content: "/banner.png"
     },
     {
       property: `og:description`,
