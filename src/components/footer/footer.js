@@ -26,7 +26,7 @@ export default function Footer() {
                 {/* <Link path="#!">Privacy</Link> */}
               </Box>
               <Text as="p" sx={styles.copyright}>
-                Copyright by {new Date().getFullYear()} Newsletter to Socials
+                Copyright by {new Date().getFullYear()} Matthew Joseph Krager Newsletter to Socials
               </Text>
             </Box>
             <Box sx={styles.widgets}>
