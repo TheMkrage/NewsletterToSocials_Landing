@@ -25,7 +25,7 @@ export default [
   },
   {
     path: 'faq',
-    label: 'Faq',
+    label: 'FAQ',
   },
   {
     path: 'contact',

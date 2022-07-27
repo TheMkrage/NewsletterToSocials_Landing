@@ -17,7 +17,7 @@ const data = [
     title: 'Top 5 Social Media Tools for Newsletter Creators',
     desc:
       'Why do it all yourself? Use tools to save time while promoting your newsletter.',
-    link: 'https://newslettertosocials.substack.com/p/top-5-social-media-tools-for-newsletter',
+    link: 'https://newslettertosocials.com/blog/top-5-social-media-tools-for-newsletter-creators-cl603rqu765201jpb40n0we7j',
   },
   {
     id: 2,
@@ -25,21 +25,21 @@ const data = [
     title:
       'Why Social Media is the Best way to Grow your Newsletter',
     desc: 'It\'s no secret that social media is kind of a big deal. Many writers that I have talked to mention Facebook Groups as a large source of incoming traffic and subscribers. This is an awesome way to make connections, but Facebook Groups are really just the tip of the iceberg in how social media can help grow a newsletter.',
-    link: 'https://newslettertosocials.substack.com/p/why-social-media-is-the-best-way',
+    link: 'https://newslettertosocials.com/blog/why-social-media-is-the-best-way-to-grow-your-newsletter-cl61ma66m13041ko9ad39bbqp',
   },
   {
     id: 3,
     image: news3,
     title: 'Growing your Newsletter on Instagram',
     desc: '',
-    link: 'https://newslettertosocials.substack.com/p/growing-your-newsletter-on-instagram',
+    link: 'https://newslettertosocials.com/blog/the-best-way-to-grow-your-newsletter-on-instagram-cl61na8v223671ko998dalfvn',
   },
   {
     id: 4,
     image: news4,
     title: 'A Newsletter to Socials Case Study: Year 2049',
     desc: '',
-    link: 'https://newslettertosocials.substack.com/p/a-newsletter-to-socials-case-study',
+    link: 'https://newslettertosocials.com/blog/a-newsletter-to-socials-case-study-year-2049-cl61kxdbu09151ko9kzl24uca',
   },
 ];
 
