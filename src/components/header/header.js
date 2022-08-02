@@ -37,7 +37,7 @@ export default function Header() {
           <Container sx={styles.container}>
             <Logo sx={styles.logo} />
             <nav as="nav" sx={styles.navbar} className={'navbar'}>
-              {menuItems.map(({ path, label }, i) => { label.toLowerCase() == "blog" ? <NavLink key={i} href="https://newslettertosocials.com/blog" label={label} /> : <NavLink key={i} path={path} label={label} /> }
+              {menuItems.map(({ path, label }, i) => { return label.toLowerCase() == "blog" ? <Link key={i} target="_blank" href="https://newslettertosocials.com/blog" style={{ textDecoration: "none" }} > {label}</Link> : <NavLink key={i} path={path} label={label} /> }
               )}
             </nav>
             <Link sx={{ textDecoration: 'none', }} target="_blank" href="https://app.newslettertosocials.com" passHref>
@@ -49,7 +49,7 @@ export default function Header() {
           </Container>
         </header>
       </Sticky>
-    </DrawerProvider>
+    </DrawerProvider >
   );
 }
 
