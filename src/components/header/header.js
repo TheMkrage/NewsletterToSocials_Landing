@@ -42,7 +42,7 @@ export default function Header() {
             </nav>
             <Link sx={{ textDecoration: 'none', }} target="_blank" href="https://app.newslettertosocials.com" passHref>
               <Button variant="primary" sx={styles.button}>
-                Get Started
+                Use the App
               </Button>
             </Link>
             <NavbarDrawer />
