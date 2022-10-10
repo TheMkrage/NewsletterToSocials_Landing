@@ -99,6 +99,7 @@ const Pricing = () => {
               <li>Full Access to Content </li>
               <li>Post Scheduling</li>
               <li>50+ Images Templates</li>
+              <li>Autoposters</li>
               <li>Unlimited Posts</li>
               <li>Watermark free</li>
               <li>Multiple Publications</li>
