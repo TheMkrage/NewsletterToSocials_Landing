@@ -38,6 +38,10 @@ const PriceTable = ({ data }) => {
             <FeatureIcon value={data.image_templates} />
           </li>
           <li>
+            <span>Autoposters</span>
+            <FeatureIcon value={data.autoposters} />
+          </li>
+          <li>
             <span>Unlimited Posts</span>
             <FeatureIcon value={data.unlimited_posts} />
           </li>
